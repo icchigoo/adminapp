@@ -20,7 +20,6 @@ import Addcolor from "./pages/Addcolor";
 import Addcat from "./pages/Addcat";
 import Addbrand from "./pages/Addbrand";
 import Addproduct from "./pages/Addproduct";
-
 function App() {
   return (
     <Router>
