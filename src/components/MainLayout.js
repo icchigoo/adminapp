@@ -6,6 +6,8 @@ import {
   AiOutlineUser,
   AiOutlineBgColors,
 } from "react-icons/ai";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { Link } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import { ImBlog } from "react-icons/im";
@@ -27,8 +29,8 @@ const MainLayout = () => {
       <Sider trigger={null} collapsible collapsed={collapsed}>
         <div className="logo">
           <h2 className="text-white fs-5 text-center py-3 mb-0">
-            <span className="sm-logo">NV</span>
-            <span className="lg-logo">Nev hipop</span>
+            <span className="sm-logo">NH</span>
+            <span className="lg-logo">Nep hype</span>
           </h2>
         </div>
         <Menu
@@ -211,6 +213,17 @@ const MainLayout = () => {
             background: colorBgContainer,
           }}
         >
+          <ToastContainer
+            position="top-right"
+            autoClose={250}
+            hideProgressBar={false}
+            newestOnTop={true}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            theme="light"
+          />
           <Outlet />
         </Content>
       </Layout>
