@@ -4,4 +4,4 @@ The admin section of this project has been developed using the MERN (MongoDB, Ex
 
 ##Screenshot
 
-![346137218_206664261731491_5088726539056500439_n](https://github.com/icchigoo/adminapp/assets/79775763/9f01f563-b424-4f29-9ad7-73ffdb234b41)
+![346137218_206664261731491_5088726539056500439_n](https://github.com/icchigoo/adminapp/assets/79775763/7933ead1-f835-49f5-b95d-18ff82eb7675)
